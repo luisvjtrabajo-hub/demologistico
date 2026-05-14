@@ -37,9 +37,14 @@ export function TopNavbar() {
           </span>
         </div>
         
-        <button className="bg-white text-black hover:bg-white/90 transition-colors px-4 py-2 rounded-lg text-sm font-medium shadow-[0_0_20px_rgba(255,255,255,0.15)]">
+        <a 
+          href="https://wa.me/56982228924"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-white text-black hover:bg-white/90 transition-colors px-4 py-2 rounded-lg text-sm font-medium shadow-[0_0_20px_rgba(255,255,255,0.15)]"
+        >
           Solicitar Implementación
-        </button>
+        </a>
       </div>
     </nav>
   );

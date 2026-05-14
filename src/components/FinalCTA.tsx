@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Calendar } from "lucide-react";
+import { Calendar } from "lucide-react";
 
 export function FinalCTA() {
   return (
@@ -24,14 +24,15 @@ export function FinalCTA() {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="w-full sm:w-auto px-8 py-4 bg-white text-black hover:bg-white/90 transition-all rounded-xl font-semibold flex items-center justify-center gap-2 shadow-[0_0_30px_rgba(255,255,255,0.15)] hover:shadow-[0_0_40px_rgba(255,255,255,0.2)] hover:-translate-y-1">
-              Solicitar Demo
-              <ArrowRight className="w-5 h-5" />
-            </button>
-            <button className="w-full sm:w-auto px-8 py-4 bg-surface-200 hover:bg-surface-300 text-white border border-white/10 transition-all rounded-xl font-medium flex items-center justify-center gap-2 hover:-translate-y-1">
+            <a 
+              href="https://wa.me/56982228924"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto px-8 py-4 bg-white text-black hover:bg-white/90 transition-all rounded-xl font-semibold flex items-center justify-center gap-2 shadow-[0_0_30px_rgba(255,255,255,0.15)] hover:shadow-[0_0_40px_rgba(255,255,255,0.2)] hover:-translate-y-1"
+            >
               <Calendar className="w-5 h-5" />
               Agendar Implementación
-            </button>
+            </a>
           </div>
           
           <p className="mt-8 text-sm text-white/40 flex items-center justify-center gap-4">
