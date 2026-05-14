@@ -25,7 +25,7 @@ export function FinalCTA() {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a 
-              href="https://wa.me/56982228924"
+              href="https://wa.me/56982228924?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20implementaci%C3%B3n%20de%20la%20plataforma%20log%C3%ADstica."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-8 py-4 bg-white text-black hover:bg-white/90 transition-all rounded-xl font-semibold flex items-center justify-center gap-2 shadow-[0_0_30px_rgba(255,255,255,0.15)] hover:shadow-[0_0_40px_rgba(255,255,255,0.2)] hover:-translate-y-1"

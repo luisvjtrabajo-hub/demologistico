@@ -38,7 +38,7 @@ export function TopNavbar() {
         </div>
         
         <a 
-          href="https://wa.me/56982228924"
+          href="https://wa.me/56982228924?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20una%20implementaci%C3%B3n%20de%20la%20plataforma%20log%C3%ADstica."
           target="_blank"
           rel="noopener noreferrer"
           className="bg-white text-black hover:bg-white/90 transition-colors px-4 py-2 rounded-lg text-sm font-medium shadow-[0_0_20px_rgba(255,255,255,0.15)]"
